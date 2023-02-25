@@ -8,7 +8,7 @@ function base_url_back()
 
 function firmName()
 {
-    return "management";
+    return "Çam Özkoç";
 }
 
 function imageBaseUrl()
