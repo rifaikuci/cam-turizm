@@ -11,7 +11,7 @@
                 <?php
 
                 menuTreeSubTitle("Genel Ayarlar",
-                    "",
+                    "far fas fa-cog nav-icon",
                     "src/setting",
                     "", "");
                 ?>
