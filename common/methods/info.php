@@ -8,7 +8,7 @@ function base_url_back()
 
 function firmName()
 {
-    return "Çam Özkoç";
+    return "Çam Turizm";
 }
 
 function imageBaseUrl()

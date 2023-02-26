@@ -14,6 +14,31 @@
                     "far fas fa-cog nav-icon",
                     "src/setting",
                     "", "");
+
+                menuTreeSubTitle("Hakkında",
+                    "far fas fa-info nav-icon",
+                    "src/about",
+                    "", "");
+
+                menuTreeSubTitle("Müşteriler",
+                    "far fas fa-users nav-icon",
+                    "src/customer",
+                    "", "");
+                menuTreeSubTitle("S.S.S.",
+                    "far fas fa-question nav-icon",
+                    "src/faq",
+                    "", "");
+
+                menuTreeSubTitle("Paketler",
+                    "far fas fa-list nav-icon",
+                    "src/packets",
+                    "", "");
+
+                menuTreeSubTitle("Personeller",
+                    "far fas fa-user nav-icon",
+                    "src/person",
+                    "", "");
+
                 ?>
 
             </ul>

@@ -1,5 +1,4 @@
 <?
- session_start();
 
 if (file_exists("utils/index.php")) {
     require_once "utils/index.php";
@@ -13,7 +12,14 @@ if (file_exists("utils/index.php")) {
     require_once "../../../../utils/index.php";
 }
 
-require_once "login/index.php";
+//require_once "login/index.php";
+
+require_once "setting/index.php";
+require_once "about/index.php";
+require_once "customer/index.php";
+require_once "faq/index.php";
+require_once "packets/index.php";
+require_once "person/index.php";
 /*
 if (isset($_SESSION['management'])) {
 */

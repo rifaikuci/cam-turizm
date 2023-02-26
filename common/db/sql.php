@@ -54,8 +54,8 @@ function getDataRow ($id, $table, $db) {
     $result = mysqli_query($db, $sql)->fetch_assoc();
 
     return $result;
-
 }
+
 function getTableColumns($table, $db)
 {
     $sql = "SHOW COLUMNS FROM $table";

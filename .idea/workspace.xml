@@ -4,9 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68eff846-34d8-4445-84af-40197238565c" name="Changes" comment="commit">
+    <list default="true" id="68eff846-34d8-4445-84af-40197238565c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/management/kusva/about/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/kusva/customer/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/kusva/faq/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/kusva/packets/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/kusva/person/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/kusva/setting/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/about/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/about/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/customer/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/customer/insert/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/customer/insert/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/customer/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/customer/update/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/customer/update/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/faq/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/faq/insert/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/faq/insert/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/faq/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/faq/update/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/faq/update/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/packets/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/packets/insert/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/packets/insert/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/packets/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/packets/update/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/packets/update/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/person/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/person/insert/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/person/insert/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/person/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/person/update/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/management/src/person/update/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/199106c9-0c85-4c85-88ba-c73897657918.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/199106c9-0c85-4c85-88ba-c73897657918.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/db/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/db/sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/methods/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/methods/info.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/management/include/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/include/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/kusva/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/kusva/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/src/setting/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/src/setting/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/src/setting/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/src/setting/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +57,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/management/src/packets/insert/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/management/src/packets/update/main.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/management/src/packets/update/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/management/src/packets/main.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/management/src/packets/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/management/include/sidebar.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/management/kusva/packets/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/management/kusva/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -29,12 +85,12 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/management/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/management/kusva" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,7 +101,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/management/kusva" />
+      <recent name="$PROJECT_DIR$/management/src" />
+      <recent name="$PROJECT_DIR$/management/kusva/customer" />
+      <recent name="$PROJECT_DIR$/management/kusva/about" />
       <recent name="$PROJECT_DIR$/management/style" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/management/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677320213378</updated>
-      <workItem from="1677320214804" duration="4993000" />
+      <workItem from="1677320214804" duration="21663000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1677324718976</created>
@@ -114,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677337077842</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <created>1677337779571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677337779571</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,5 +204,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/management/utils/forms/textInput.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
