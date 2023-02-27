@@ -39,6 +39,11 @@
                     "src/person",
                     "", "");
 
+                menuTreeSubTitle("Referanslar",
+                    "far fas fa-asterisk nav-icon",
+                    "src/references",
+                    "", "");
+
                 ?>
 
             </ul>

@@ -1,14 +1,14 @@
 <section class="content">
     <?php statusAlert(); ?>
 
-    <?php $data = getAllData("tblCustomer",'', $db);
-    $isVisibleColumn = ["counter","name", "surname","phone","mail"];
-    $columnName = [ "#", "Ad", "Soyad", "Telefon", "Mail"];
+    <?php $data = getAllData("tblReferences",'', $db);
+    $isVisibleColumn = ["counter","name", "title"];
+    $columnName = [ "#", "Yetkili", "Referans"];
 
     ?>
     <?php getTable($data, $isVisibleColumn, $columnName,
         true,false, true, true,
-        "Müşteriler Listesi",
+        "Referans Listesi",
         "",
         "",
         "",

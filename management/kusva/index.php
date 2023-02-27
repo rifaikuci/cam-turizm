@@ -20,6 +20,7 @@ require_once "customer/index.php";
 require_once "faq/index.php";
 require_once "packets/index.php";
 require_once "person/index.php";
+require_once "references/index.php";
 /*
 if (isset($_SESSION['management'])) {
 */
