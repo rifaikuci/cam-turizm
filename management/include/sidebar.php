@@ -44,6 +44,16 @@
                     "src/references",
                     "", "");
 
+                menuTreeSubTitle("Servisler",
+                    "far fas fa-server nav-icon",
+                    "src/services",
+                    "", "");
+
+                menuTreeSubTitle("Sliderlar",
+                    "far fas fa-list nav-icon",
+                    "src/slider",
+                    "", "");
+
                 ?>
 
             </ul>

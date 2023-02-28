@@ -21,6 +21,8 @@ require_once "faq/index.php";
 require_once "packets/index.php";
 require_once "person/index.php";
 require_once "references/index.php";
+require_once "services/index.php";
+require_once "slider/index.php";
 /*
 if (isset($_SESSION['management'])) {
 */
