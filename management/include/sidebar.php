@@ -59,6 +59,16 @@
                     "src/social",
                     "", "");
 
+                menuTreeSubTitle("Turlar",
+                    "far fas fa-recycle nav-icon",
+                    "src/tour",
+                    "", "");
+
+                menuTreeSubTitle("Araçlar",
+                    "far fas fa-car nav-icon",
+                    "src/vehicle",
+                    "", "");
+
                 ?>
 
             </ul>
