@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68eff846-34d8-4445-84af-40197238565c" name="Changes" comment="front">
-      <change afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/contact.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/assets/css/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/assets/img/about-bg.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/assets/img/about-mission.jpg" afterDir="false" />
@@ -1941,35 +1935,10 @@
       <change afterPath="$PROJECT_DIR$/front/style/plugins/uplot/uPlot.iife.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/style/plugins/uplot/uPlot.iife.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/style/plugins/uplot/uPlot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inner-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/assets/images/customer/63fb292337a37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/assets/images/packets/63fb27d88b912.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/assets/images/packets/63fb282332545.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/assets/images/person/63fb51c3a6ca4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/assets/images/services/63fce8571d677.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/kusva/subSlider/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/src/subSlider/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/src/subSlider/insert/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/src/subSlider/insert/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/src/subSlider/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/src/subSlider/update/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/src/subSlider/update/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/199106c9-0c85-4c85-88ba-c73897657918.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/199106c9-0c85-4c85-88ba-c73897657918.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/db/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/db/sql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/methods/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/methods/text.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/include/lang-control.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/include/lang-control.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/lib/tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/lib/tr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/include/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/include/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/kusva/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/kusva/about/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/kusva/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/kusva/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/kusva/slider/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/kusva/slider/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/src/about/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/src/about/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/src/slider/insert/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/src/slider/insert/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/src/slider/update/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/src/slider/update/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/utils/forms/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/utils/forms/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/src/social/insert/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/src/social/insert/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/src/social/update/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/management/src/social/update/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2064,7 +2033,7 @@
       <workItem from="1678302134977" duration="5619000" />
       <workItem from="1678339398690" duration="340000" />
       <workItem from="1678386670859" duration="2725000" />
-      <workItem from="1678510274045" duration="9622000" />
+      <workItem from="1678510274045" duration="10218000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1677324718976</created>
@@ -2178,7 +2147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678339583241</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="front">
+      <created>1678567753784</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678567753784</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

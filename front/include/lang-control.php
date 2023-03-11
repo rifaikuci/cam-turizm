@@ -19,7 +19,6 @@ if ($_GET['lang']) {
     }
 
     header('Location:'.$filteredURL);
-
 } else {
     if ($_SESSION['lang']) {
         $lang = $_SESSION['lang'];
@@ -30,9 +29,15 @@ if ($_GET['lang']) {
         $_SESSION['lang'] = $lang;
         $_SESSION['lang'] = $lang;
     }
-
 }
 
-
+$langCharacter = "";
+if($lang == "tr")
+    $langCharacter= "";
+else if ($lang == "en") {
+    $langCharacter = "E";
+} else if ($lang == "de") {
+    $langCharacter = "A";
+}
 
 ?>

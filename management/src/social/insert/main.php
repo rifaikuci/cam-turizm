@@ -68,7 +68,7 @@
         <div class="row">
             <?php
             getTextInput(4, "Link", "", "link", '', false, false);
-            getTextInput(4, "Class Adı", "", "className", '', false, false);
+      //      getTextInput(4, "Class Adı", "", "className", '', false, false);
             getInputFile(3, "image", "Resim", false, false, false);
             ?>
         </div>

@@ -80,7 +80,7 @@ if (isset($_GET['id'])) {
         <div class="row">
             <?php
             getTextInput(4, " Linki", "", "link", $row['link'], false, false);
-            getTextInput(4, " Class Adı", "", "className", $row['className'], false, false);
+            //getTextInput(4, " Class Adı", "", "className", $row['className'], false, false);
             getInputFile(3, "image", "Resim", false, false, false);
             if ($row['image'])
                 getViewFile(3, "Resim", $row['image']);
