@@ -54,6 +54,11 @@
                     "src/slider",
                     "", "");
 
+                menuTreeSubTitle("Alt Sliderlar",
+                    "far fas fa-list nav-icon",
+                    "src/subSlider",
+                    "", "");
+
                 menuTreeSubTitle("Sosyal Medyalar",
                     "far fas fa-comment nav-icon",
                     "src/social",

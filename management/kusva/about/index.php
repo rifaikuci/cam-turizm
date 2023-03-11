@@ -26,6 +26,8 @@ if (isset($_POST['aboutUpdate'])) {
         "mission", "missionE", "missionA",
         "vision", "visionE", "visionA",
         "videoLink", "videoLinkE", "videoLinkA",
+        "classNameMission", "classNameVision", "classNamePlan",
+        "plan", "planE", "planA",
         "metaKeywords", "metaKeywordsE", "metaKeywordsA",
         "metaDescription", "metaDescriptionE", "metaDescriptionA"
     ];

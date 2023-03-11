@@ -21,20 +21,4 @@ function wordSplice($metin, $sayi)
         return $metin;
     }
 }
-
-function wordCharacter($metin, $sayi ){
-
-    if(strlen($metin) < $sayi) {
-        echo $metin;
-    } else {
-
-        for ($i = 0; $i< 20; $i++) {
-            if($metin[$sayi+$i] == ' ' ) {
-                echo   $metin  = substr($metin,0,$sayi+$i)."...";
-            }
-        }
-
-    }
-}
-
 ?>

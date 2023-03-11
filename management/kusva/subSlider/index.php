@@ -1,12 +1,12 @@
 <?php
 
-if (isset($_POST['sliderInsert'])) {
+if (isset($_POST['subSliderInsert'])) {
 
     $dirName = basename(__DIR__);
     $path = base_url_back() . "src/" . $dirName;
     $data = array();
     if (isset($_FILES['image']) && $_FILES['image']['name']) {
-        $file = imageUpload("slider", 'image', '');
+        $file = imageUpload("subSlider", 'image', '');
         if ($file == "image_large" || $file == "image_invalid_type" || $file == "image_not_upload") {
             header("Location:" . $path . "/index.php?hata=" . $file);
             exit();
@@ -15,17 +15,14 @@ if (isset($_POST['sliderInsert'])) {
 
     $arrayKey = [
         "title", "titleE", "titleA",
-        "subTitle", "subTitleE", "subTitleA",
         "description", "descriptionE", "descriptionA",
-        "btnTitle", "btnTitleE", "btnTitleA",
-        "link", "linkE", "linkA",
-        "videoLink"
+        "link", "className"
     ];
     $data = getDataForm($arrayKey);
 
     if (isset($_FILES['image']) && $_FILES['image']['name']) $data['image'] = $file;
 
-    $sql = insert($data, "tblSlider");
+    $sql = insert($data, "tblSubSlider");
     if (mysqli_query($db, $sql)) {
         
         header("Location:" . $path . "/?insert=ok");
@@ -39,15 +36,15 @@ if (isset($_POST['sliderInsert'])) {
     }
 }
 
-if (isset($_POST['sliderUpdate'])) {
+if (isset($_POST['subSliderUpdate'])) {
 
-    $id = $_POST['sliderUpdate'];
+    $id = $_POST['subSliderUpdate'];
     $dirName = basename(__DIR__);
     $path = base_url_back() . "src/" . $dirName;
     $data = array();
 
     if (isset($_FILES['image']) && $_FILES['image']['name']) {
-        $file = imageUpload("slider", 'image', '');
+        $file = imageUpload("subSlider", 'image', '');
         if ($file == "image_large" || $file == "image_invalid_type" || $file == "image_not_upload") {
             header("Location:" . $path . "/index.php?hata=" . $file);
             exit();
@@ -63,17 +60,15 @@ if (isset($_POST['sliderUpdate'])) {
 
     $arrayKey = [
         "title", "titleE", "titleA",
-        "subTitle", "subTitleE", "subTitleA",
         "description", "descriptionE", "descriptionA",
-        "btnTitle", "btnTitleE", "btnTitleA",
-        "link", "linkE", "linkA",
-        "videoLink"
+        "link", "className"
     ];
+    
     $data = getDataForm($arrayKey);
 
     if (isset($_FILES['image']) && $_FILES['image']['name']) $data['image'] = $file;
 
-    $sql = update($data, "tblSlider", $id);
+    $sql = update($data, "tblSubSlider", $id);
     if (mysqli_query($db, $sql)) {
         header("Location:" . $path . "/?update=ok");
         exit();
@@ -86,10 +81,10 @@ if (isset($_POST['sliderUpdate'])) {
     }
 }
 
-if (isset($_GET['sliderDelete'])) {
-    $id = $_GET['sliderDelete'];
-    $row = getDataRow("$id", "tblSlider", $db);
-    $sql = delete($id, 'tblSlider');
+if (isset($_GET['subSliderDelete'])) {
+    $id = $_GET['subSliderDelete'];
+    $row = getDataRow("$id", "tblSubSlider", $db);
+    $sql = delete($id, 'tblSubSlider');
     $dirName = basename(__DIR__);
     $path = base_url_back() . "src/" . $dirName;
 

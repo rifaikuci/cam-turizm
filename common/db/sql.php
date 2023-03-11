@@ -97,4 +97,15 @@ function getAllData($table, $limit, $db)
     return $data;
 }
 
+function getCount($table, $db)
+{
+    $sql = "SELECT * from $table";
+
+    if ($result = mysqli_query($db, $sql)) {
+
+        $rowcount = mysqli_num_rows( $result );
+
+        return $rowcount;
+    }
+}
 ?>

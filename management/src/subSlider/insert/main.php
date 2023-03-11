@@ -4,22 +4,20 @@
           enctype="multipart/form-data">
 
         <?php
-        getTextHidden("sliderInsert", "sliderInsert");
+        getTextHidden("subSliderInsert", "subSliderInsert");
         ?>
         <div class="card card-dark">
 
             <div class="card-header">
                 <?php expandable_header(); ?>
-                <h3 class="card-title">Slider Bilgileri (Türkçe)</h3>
+                <h3 class="card-title">Alt Slider Bilgileri (Türkçe)</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <?php
                     getTextInput(4, "Başlık", "", "title", '', false, false);
-                    getTextInput(8, "Alt Başlık", "", "subTitle", '', false, false);
-                    getTextInput(4, "Buton Başlık", "", "btnTitle", '', false, false);
-                    getTextInput(8, "Buton Link", "", "subTitle", '', false, false);
                     getTextArea(12, "Açıklama", "", "description", 3, "", false, false);
+
                     ?>
 
                 </div>
@@ -33,15 +31,12 @@
 
             <div class="card-header">
                 <?php expandable_header(); ?>
-                <h3 class="card-title">Slider Bilgileri (İngilizce)</h3>
+                <h3 class="card-title">Alt Slider Bilgileri (İngilizce)</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <?php
                     getTextInput(4, "Başlık", "", "titleE", '', false, false);
-                    getTextInput(8, "Alt Başlık", "", "subTitleE", '', false, false);
-                    getTextInput(4, "Buton Başlık", "", "btnTitleE", '', false, false);
-                    getTextInput(8, "Buton Link", "", "subTitleE", '', false, false);
                     getTextArea(12, "Açıklama", "", "descriptionE", 3, "", false, false);
                     ?>
 
@@ -56,16 +51,14 @@
 
             <div class="card-header">
                 <?php expandable_header(); ?>
-                <h3 class="card-title">Slider Bilgileri (Almanca)</h3>
+                <h3 class="card-title">Alt Slider Bilgileri (Almanca)</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <?php
                     getTextInput(4, "Başlık", "", "titleA", '', false, false);
-                    getTextInput(8, "Alt Başlık", "", "subTitleA", '', false, false);
-                    getTextInput(4, "Buton Başlık", "", "btnTitleA", '', false, false);
-                    getTextInput(8, "Buton Link", "", "subTitleA", '', false, false);
                     getTextArea(12, "Açıklama", "", "descriptionA", 3, "", false, false);
+
                     ?>
 
                 </div>
@@ -79,7 +72,8 @@
 
         <div class="row">
             <?php
-            getTextInput(4, "Video Linki", "", "videoLink", '', false, false);
+            getTextInput(4, "Link", "", "link", '', false, false);
+            getTextInput(4, "Class Adı", "", "className", '', false, false);
             getInputFile(3, "image", "Resim", false, false, false);
             ?>
         </div>

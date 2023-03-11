@@ -48,7 +48,7 @@ function getTable($data, $isVisibleColumn, $columnName,
        $return = $return. ' <tr>';
        for($k = 0; $k < count($isVisibleColumn) ; $k++) {
 
-        $return = $return . '<td>'.$data[$i][$isVisibleColumn[$k]].'</td>';
+        $return = $return . '<td>'. wordSplice( $data[$i][$isVisibleColumn[$k]],10).'</td>';
        }
         $return =  $return .'<td style="text-align: center">';
 

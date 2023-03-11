@@ -2,7 +2,7 @@
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    $row = getDataRow($id, 'tblSlider', $db);
+    $row = getDataRow($id, 'tblSubSlider', $db);
 
 }
 ?>
@@ -14,23 +14,21 @@ if (isset($_GET['id'])) {
           enctype="multipart/form-data">
 
         <?php
-        getTextHidden("sliderUpdate", $id);
+        getTextHidden("subSliderUpdate", $id);
         getTextHidden("deleteFile", $row['image']);
         ?>
         <div class="card card-dark">
 
             <div class="card-header">
                 <?php expandable_header(); ?>
-                <h3 class="card-title">Slider Listesi (Türkçe)</h3>
+                <h3 class="card-title">Alt Slider Bilgileri (Türkçe)</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <?php
                     getTextInput(4, "Başlık", "", "title", $row['title'], false, false);
-                    getTextInput(8, "Alt Başlık", "", "subTitle", $row['subTitle'], false, false);
-                    getTextInput(4, "Buton Başlık", "", "btnTitle", $row['btnTitle'], false, false);
-                    getTextInput(8, "Buton Link", "", "link", $row['link'], false, false);
                     getTextArea(12, "Açıklama", "", "description", 3, $row['description'], false, false);
+
                     ?>
 
                 </div>
@@ -44,15 +42,12 @@ if (isset($_GET['id'])) {
 
             <div class="card-header">
                 <?php expandable_header(); ?>
-                <h3 class="card-title">Slider Listesi (İngilizce)</h3>
+                <h3 class="card-title">Alt Slider Bilgileri (İngilizce)</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <?php
                     getTextInput(4, "Başlık", "", "titleE", $row['titleE'], false, false);
-                    getTextInput(8, "Alt Başlık", "", "subTitleE", $row['subTitleE'], false, false);
-                    getTextInput(4, "Buton Başlık", "", "btnTitleE", $row['btnTitleE'], false, false);
-                    getTextInput(8, "Buton Link", "", "linkE", $row['linkE'], false, false);
                     getTextArea(12, "Açıklama", "", "descriptionE", 3, $row['descriptionE'], false, false);
                     ?>
 
@@ -67,15 +62,12 @@ if (isset($_GET['id'])) {
 
             <div class="card-header">
                 <?php expandable_header(); ?>
-                <h3 class="card-title">Slider Listesi (Almanca)</h3>
+                <h3 class="card-title">Alt Slider Bilgileri (Almanca)</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <?php
                     getTextInput(4, "Başlık", "", "titleA", $row['titleA'], false, false);
-                    getTextInput(8, "Alt Başlık", "", "subTitleA", $row['subTitleA'], false, false);
-                    getTextInput(4, "Buton Başlık", "", "btnTitleA", $row['btnTitleA'], false, false);
-                    getTextInput(8, "Buton Link", "", "linkA", $row['linkA'], false, false);
                     getTextArea(12, "Açıklama", "", "descriptionA", 3, $row['descriptionA'], false, false);
                     ?>
 
@@ -91,7 +83,8 @@ if (isset($_GET['id'])) {
 
         <div class="row">
             <?php
-            getTextInput(4, "Video Linki", "", "videoLink", $row['videoLink'], false, false);
+            getTextInput(4, " Linki", "", "link", $row['link'], false, false);
+            getTextInput(4, " Class Adı", "", "className", $row['className'], false, false);
             getInputFile(3, "image", "Resim", false, false, false);
             if ($row['image'])
                 getViewFile(3, "Resim", $row['image']);
